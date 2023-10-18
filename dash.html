@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prior Guidance website</title>
+    <link rel = "icon" href = "https://cdn.glitch.global/d4a87b75-c2a7-4e7f-8164-00a7b7179cd4/logo.jpeg?1683457576606" type = "image/x-icon">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans' , sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/129325364/original/afaddcb9d7dfaaf5bff7ef04101935814665ac16/design-an-attractive-background-for-your-website.png");
+    background-size: cover;
+    background-position: center;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 4%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: red;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: red;
+    transition: .2s;
+}
+.btn{
+    background-color: blanchedalmond ;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.1)
+}
+
+.content{
+    position: absolute;
+    color: aqua;
+    top: 40%;
+    left: 8%;
+    right: 10%;
+}
+
+
+
+.content h2{
+    color: azure;
+    font-size: 35px;
+}
+.content h1{
+    color: wheat;
+    font-size: 30px;
+}
+.content span{
+    color: red;
+    font-size: 50px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.content h3{
+    margin-right: 5%;
+    color: rgb(110, 159, 223);
+}
+input{
+    background-color: white; 
+    color:black;
+    
+    border-radius: 10px;
+    padding : 10px 15px 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+input:hover{ 
+    background: plum;
+    color: white;
+    }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="hero">
+    <nav>
+        <h2 class='logo'>PRIOR<span>Guidance</span></h2>
+        <ul >
+            <li><a href="signup.html"><input  type="button" value="signup"></a></li>
+            <li><a href="login.html"><input  type="button" value="login"></a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h2>Hey there !!!</h2>
+        <h1>Welcome to <span>PRIOR</span> <span2> Guidance</span2> </h1>
+        <br>
+        <h3>Whether you're just starting out or looking to take your skills to the next level <br>
+            <br>
+            we're here to help you navigate the challenges and achieve your goals. <br>
+            <br>
+            Let's get started today and take the first step towards a bright future in your dream domain</h3>
+    </div>
+    </div>
+    
+</body>
+</html>
